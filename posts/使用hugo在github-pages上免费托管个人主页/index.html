@@ -1,0 +1,95 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge,chrome=1"><title>使用Hugo在GitHub Pages上免费托管个人主页 | Ke Kai的原创博客</title><meta name=viewport content="width=device-width,minimum-scale=1"><meta name=description content="今天使用Hugo搭建了我的个人博客，并在GitHub Pages上免费托管。Hugo使用起来非常简单，整个网站搭建耗时不到30min.
+为什么使用Hugo hugo生成静态网站，可托管在cdn,oss,github,gitlab等很多地方，部署方便。 相比于动态网站，安全性更高，访问速度更快。因为访问内容都已经提前渲染好放在html中 有比较成熟社区，不仅可以用来搭建个人博客，也能用来搭建其他网站。 hugo是使用go编写的，本人使用go技术栈，不仅方便排查问题，也可以学习hugo很多设计理念。 安装Hugo 注意，Hugo有两个版本：标准版(Standard)和扩展版(Extended)，默认我们使用Extended Hugo。 可参考官方文档.
+Extended Hugo能够向前兼容Standard Hugo, 即使用Extended Hugo也能生成和部署Standard Hugo编写的网页。 反之则不行，因此我们默认使用Extended Hugo
+生成个人网站 执行以下命令,生成网站 # hugo项目初始化,username替换成你自己github账户名 hugo new site username.github.io # 进入项目根目录 cd username.github.io # git项目初始化 git init # 将Ananke主题clone到项目中 git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke themes/ananke # 使用ananke主题 echo &#34;theme = 'ananke'&#34; >> config.toml # 启动hugo服务，打开返回网址即可查看主页 hugo server 添加博客 # 创建文章 hugo new posts/my-first-post.md 默认内容如下 --- title: &#34;My First Post&#34; date: 2023-1-20T09:03:20-08:00 draft: true --- ## Introduction This is **bold** text, and this is *emphasized* text."><meta name=generator content="Hugo 0.110.0"><meta name=robots content="noindex, nofollow"><link rel=stylesheet href=/ananke/css/main.min.css><meta property="og:title" content="使用Hugo在GitHub Pages上免费托管个人主页"><meta property="og:description" content="今天使用Hugo搭建了我的个人博客，并在GitHub Pages上免费托管。Hugo使用起来非常简单，整个网站搭建耗时不到30min.
+为什么使用Hugo hugo生成静态网站，可托管在cdn,oss,github,gitlab等很多地方，部署方便。 相比于动态网站，安全性更高，访问速度更快。因为访问内容都已经提前渲染好放在html中 有比较成熟社区，不仅可以用来搭建个人博客，也能用来搭建其他网站。 hugo是使用go编写的，本人使用go技术栈，不仅方便排查问题，也可以学习hugo很多设计理念。 安装Hugo 注意，Hugo有两个版本：标准版(Standard)和扩展版(Extended)，默认我们使用Extended Hugo。 可参考官方文档.
+Extended Hugo能够向前兼容Standard Hugo, 即使用Extended Hugo也能生成和部署Standard Hugo编写的网页。 反之则不行，因此我们默认使用Extended Hugo
+生成个人网站 执行以下命令,生成网站 # hugo项目初始化,username替换成你自己github账户名 hugo new site username.github.io # 进入项目根目录 cd username.github.io # git项目初始化 git init # 将Ananke主题clone到项目中 git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke themes/ananke # 使用ananke主题 echo &#34;theme = 'ananke'&#34; >> config.toml # 启动hugo服务，打开返回网址即可查看主页 hugo server 添加博客 # 创建文章 hugo new posts/my-first-post.md 默认内容如下 --- title: &#34;My First Post&#34; date: 2023-1-20T09:03:20-08:00 draft: true --- ## Introduction This is **bold** text, and this is *emphasized* text."><meta property="og:type" content="article"><meta property="og:url" content="https://kekai.fun/posts/%E4%BD%BF%E7%94%A8hugo%E5%9C%A8github-pages%E4%B8%8A%E5%85%8D%E8%B4%B9%E6%89%98%E7%AE%A1%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2023-01-30T18:11:20-08:00"><meta property="article:modified_time" content="2023-01-30T18:11:20-08:00"><meta itemprop=name content="使用Hugo在GitHub Pages上免费托管个人主页"><meta itemprop=description content="今天使用Hugo搭建了我的个人博客，并在GitHub Pages上免费托管。Hugo使用起来非常简单，整个网站搭建耗时不到30min.
+为什么使用Hugo hugo生成静态网站，可托管在cdn,oss,github,gitlab等很多地方，部署方便。 相比于动态网站，安全性更高，访问速度更快。因为访问内容都已经提前渲染好放在html中 有比较成熟社区，不仅可以用来搭建个人博客，也能用来搭建其他网站。 hugo是使用go编写的，本人使用go技术栈，不仅方便排查问题，也可以学习hugo很多设计理念。 安装Hugo 注意，Hugo有两个版本：标准版(Standard)和扩展版(Extended)，默认我们使用Extended Hugo。 可参考官方文档.
+Extended Hugo能够向前兼容Standard Hugo, 即使用Extended Hugo也能生成和部署Standard Hugo编写的网页。 反之则不行，因此我们默认使用Extended Hugo
+生成个人网站 执行以下命令,生成网站 # hugo项目初始化,username替换成你自己github账户名 hugo new site username.github.io # 进入项目根目录 cd username.github.io # git项目初始化 git init # 将Ananke主题clone到项目中 git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke themes/ananke # 使用ananke主题 echo &#34;theme = 'ananke'&#34; >> config.toml # 启动hugo服务，打开返回网址即可查看主页 hugo server 添加博客 # 创建文章 hugo new posts/my-first-post.md 默认内容如下 --- title: &#34;My First Post&#34; date: 2023-1-20T09:03:20-08:00 draft: true --- ## Introduction This is **bold** text, and this is *emphasized* text."><meta itemprop=datePublished content="2023-01-30T18:11:20-08:00"><meta itemprop=dateModified content="2023-01-30T18:11:20-08:00"><meta itemprop=wordCount content="266"><meta itemprop=keywords content><meta name=twitter:card content="summary"><meta name=twitter:title content="使用Hugo在GitHub Pages上免费托管个人主页"><meta name=twitter:description content="今天使用Hugo搭建了我的个人博客，并在GitHub Pages上免费托管。Hugo使用起来非常简单，整个网站搭建耗时不到30min.
+为什么使用Hugo hugo生成静态网站，可托管在cdn,oss,github,gitlab等很多地方，部署方便。 相比于动态网站，安全性更高，访问速度更快。因为访问内容都已经提前渲染好放在html中 有比较成熟社区，不仅可以用来搭建个人博客，也能用来搭建其他网站。 hugo是使用go编写的，本人使用go技术栈，不仅方便排查问题，也可以学习hugo很多设计理念。 安装Hugo 注意，Hugo有两个版本：标准版(Standard)和扩展版(Extended)，默认我们使用Extended Hugo。 可参考官方文档.
+Extended Hugo能够向前兼容Standard Hugo, 即使用Extended Hugo也能生成和部署Standard Hugo编写的网页。 反之则不行，因此我们默认使用Extended Hugo
+生成个人网站 执行以下命令,生成网站 # hugo项目初始化,username替换成你自己github账户名 hugo new site username.github.io # 进入项目根目录 cd username.github.io # git项目初始化 git init # 将Ananke主题clone到项目中 git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke themes/ananke # 使用ananke主题 echo &#34;theme = 'ananke'&#34; >> config.toml # 启动hugo服务，打开返回网址即可查看主页 hugo server 添加博客 # 创建文章 hugo new posts/my-first-post.md 默认内容如下 --- title: &#34;My First Post&#34; date: 2023-1-20T09:03:20-08:00 draft: true --- ## Introduction This is **bold** text, and this is *emphasized* text."></head><body class="ma0 avenir bg-near-white"><header><div class=bg-black><nav class="pv3 ph3 ph4-ns" role=navigation><div class="flex-l justify-between items-center center"><a href=/ class="f3 fw2 hover-white no-underline white-90 dib">Ke Kai的原创博客</a><div class="flex-l items-center"><div class=ananke-socials></div></div></div></nav></div></header><main class=pb7 role=main><article class="flex-l flex-wrap justify-between mw8 center ph3"><header class="mt4 w-100"><aside class="instapaper_ignoref b helvetica tracked">POSTS</aside><div id=sharing class="mt3 ananke-socials"></div><h1 class="f1 athelas mt3 mb1">使用Hugo在GitHub Pages上免费托管个人主页</h1><time class="f6 mv4 dib tracked" datetime=2023-01-30T18:11:20-08:00>January 30, 2023</time></header><div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>今天使用Hugo搭建了<a href=https://kekai.fun>我的个人博客</a>，并在GitHub Pages上免费托管。Hugo使用起来非常简单，整个网站搭建耗时不到30min.</p><h2 id=为什么使用hugo>为什么使用Hugo</h2><ol><li>hugo生成静态网站，可托管在cdn,oss,github,gitlab等很多地方，部署方便。</li><li>相比于动态网站，安全性更高，访问速度更快。因为访问内容都已经提前渲染好放在html中</li><li>有比较成熟社区，不仅可以用来搭建个人博客，也能用来搭建其他网站。</li><li>hugo是使用go编写的，本人使用go技术栈，不仅方便排查问题，也可以学习hugo很多设计理念。</li></ol><h2 id=安装hugo>安装Hugo</h2><p>注意，Hugo有两个版本：标准版(Standard)和扩展版(Extended)，默认我们使用Extended Hugo。 可参考<a href=https://gohugo.io/installation/>官方文档</a>.</p><p><em>Extended Hugo能够向前兼容Standard Hugo, 即使用Extended Hugo也能生成和部署Standard Hugo编写的网页。
+反之则不行，因此我们默认使用Extended Hugo</em></p><h2 id=生成个人网站>生成个人网站</h2><ol><li>执行以下命令,生成网站</li></ol><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=display:flex><span><span style=color:#75715e># hugo项目初始化,username替换成你自己github账户名</span>
+</span></span><span style=display:flex><span>hugo new site username.github.io
+</span></span><span style=display:flex><span><span style=color:#75715e># 进入项目根目录</span>
+</span></span><span style=display:flex><span>cd username.github.io
+</span></span><span style=display:flex><span><span style=color:#75715e># git项目初始化</span>
+</span></span><span style=display:flex><span>git init
+</span></span><span style=display:flex><span><span style=color:#75715e># 将Ananke主题clone到项目中</span>
+</span></span><span style=display:flex><span>git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke themes/ananke
+</span></span><span style=display:flex><span><span style=color:#75715e># 使用ananke主题</span>
+</span></span><span style=display:flex><span>echo <span style=color:#e6db74>&#34;theme = &#39;ananke&#39;&#34;</span> &gt;&gt; config.toml
+</span></span><span style=display:flex><span><span style=color:#75715e># 启动hugo服务，打开返回网址即可查看主页</span>
+</span></span><span style=display:flex><span>hugo server
+</span></span></code></pre></div><ol start=2><li>添加博客</li></ol><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=display:flex><span><span style=color:#75715e># 创建文章</span>
+</span></span><span style=display:flex><span>hugo new posts/my-first-post.md
+</span></span></code></pre></div><ol start=3><li>默认内容如下</li></ol><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-markdown data-lang=markdown><span style=display:flex><span>---
+</span></span><span style=display:flex><span>title: &#34;My First Post&#34;
+</span></span><span style=display:flex><span>date: 2023-1-20T09:03:20-08:00
+</span></span><span style=display:flex><span>draft: true
+</span></span><span style=display:flex><span>---
+</span></span><span style=display:flex><span><span style=color:#75715e>## Introduction
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span>This is <span style=font-weight:700>**bold**</span> text, and this is <span style=font-style:italic>*emphasized*</span> text.
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>Visit the [<span style=color:#f92672>Hugo</span>](<span style=color:#a6e22e>https://gohugo.io</span>) website!
+</span></span></code></pre></div><p>title: 文章主题</p><p>date: 文章编写日期</p><p>draft: 代表草稿，Hugo默认不会发布draft为true的文章。文章编写好后，可将draft设置为false.</p><p>你可以使用markdown格式继续编辑你的文章。</p><ol start=4><li>配置你的网站</li></ol><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-toml data-lang=toml><span style=display:flex><span><span style=color:#a6e22e>baseURL</span> = <span style=color:#e6db74>&#39;https://username.github.io/&#39;</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>languageCode</span> = <span style=color:#e6db74>&#39;en-us&#39;</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>title</span> = <span style=color:#e6db74>&#39;My New Hugo Site&#39;</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>theme</span> = <span style=color:#e6db74>&#39;ananke&#39;</span>
+</span></span></code></pre></div><p>打开你的hugo项目配置文件，baseURL替换成你网站正式域名,以斜杠结尾。因为我们是托管在github pages上，
+我们使用github pages网站域名，<strong>记得将username替换成你自己的github账户名</strong>。</p><ol start=5><li>预览网站</li></ol><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=display:flex><span>hugo server -D
+</span></span></code></pre></div><h2 id=部署网站到github-pages>部署网站到GitHub Pages</h2><p><a href=https://pages.github.com/>GitHub Pages</a>提供免费的静态网页托管服务。你只需要编辑你的文章，将生成的静态网页放在github仓库中，
+即可实时查看你的网页变化。</p><ol><li><p><a href=https://github.com/new>创建一个GitHub项目</a>，项目名为username.github.io, username替换成你的GitHub账户名
+<img src=create_repo.png alt=create_repo.png></p></li><li><p>增加GitHub Actions, 在提交代码时，自动生成静态网站</p></li></ol><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=display:flex><span>name: github pages
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>on:
+</span></span><span style=display:flex><span>  push:
+</span></span><span style=display:flex><span>    branches:
+</span></span><span style=display:flex><span>      - main  <span style=color:#75715e># Set a branch that will trigger a deployment</span>
+</span></span><span style=display:flex><span>      - master
+</span></span><span style=display:flex><span>  pull_request:
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>jobs:
+</span></span><span style=display:flex><span>  deploy:
+</span></span><span style=display:flex><span>    runs-on: ubuntu-22.04
+</span></span><span style=display:flex><span>    steps:
+</span></span><span style=display:flex><span>      - uses: actions/checkout@v3
+</span></span><span style=display:flex><span>        with:
+</span></span><span style=display:flex><span>          submodules: true  <span style=color:#75715e># Fetch Hugo themes (true OR recursive)</span>
+</span></span><span style=display:flex><span>          fetch-depth: <span style=color:#ae81ff>0</span>    <span style=color:#75715e># Fetch all history for .GitInfo and .Lastmod</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>      - name: Setup Hugo
+</span></span><span style=display:flex><span>        uses: peaceiris/actions-hugo@v2
+</span></span><span style=display:flex><span>        with:
+</span></span><span style=display:flex><span>          hugo-version: <span style=color:#e6db74>&#39;latest&#39;</span>
+</span></span><span style=display:flex><span>          extended: true
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>      - name: Build
+</span></span><span style=display:flex><span>        run: hugo --minify
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>      - name: Deploy
+</span></span><span style=display:flex><span>        uses: peaceiris/actions-gh-pages@v3
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>if</span>: github.ref <span style=color:#f92672>==</span> <span style=color:#e6db74>&#39;refs/heads/main&#39;</span>
+</span></span><span style=display:flex><span>        with:
+</span></span><span style=display:flex><span>          github_token: <span style=color:#e6db74>${</span>{ secrets.GITHUB_TOKEN <span style=color:#e6db74>}</span><span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span>          publish_dir: ./public
+</span></span></code></pre></div><p>以上workflow会在提交代码到main/master分支时，自动生成静态网页，并推送到gh-pages分支。</p><ol start=3><li>设置GitHub Pages， 从gh-pages分支创建网站
+<img src=img.png alt=img.png></li><li>现在我们只需提交代码到master/main分支，即可触发GitHub Action，生成静态网页到gh-pages分支</li></ol><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=display:flex><span><span style=color:#75715e># 进入项目根目录,username替换成你github账户名</span>
+</span></span><span style=display:flex><span>cd username.github.io
+</span></span><span style=display:flex><span><span style=color:#75715e># 将项目关联到github仓库，username替换成你github账户名</span>
+</span></span><span style=display:flex><span>git remote add origin git@github.com:username/username.github.io.git
+</span></span><span style=display:flex><span><span style=color:#75715e># 提交代码，即可触发生成主页</span>
+</span></span><span style=display:flex><span>git add .
+</span></span><span style=display:flex><span>git commit -m <span style=color:#e6db74>&#34;my website&#34;</span>
+</span></span><span style=display:flex><span>git push origin master
+</span></span></code></pre></div><ol start=5><li><p>访问https://username.github.io, 即可访问你的个人主页</p></li><li><p>假设你拥有域名username.com, 你也可以设置username.com作为你的项目域名。</p></li></ol><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=display:flex><span><span style=color:#75715e># 进入项目根目录,username替换成你github账户名</span>
+</span></span><span style=display:flex><span>cd username.github.io
+</span></span><span style=display:flex><span>mkdir static
+</span></span><span style=display:flex><span>echo <span style=color:#e6db74>&#34;username.com&#34;</span> &gt; static/CNAME
+</span></span><span style=display:flex><span>git add .
+</span></span><span style=display:flex><span>git commit -m <span style=color:#e6db74>&#34;add CNAME&#34;</span>
+</span></span><span style=display:flex><span>git push origin master
+</span></span></code></pre></div><p>此时，打开https://username.com即可访问你的网站主页.</p><ul class=pa0></ul><div class="mt6 instapaper_ignoref"></div></div><aside class="w-30-l mt6-l"></aside></article></main><footer class="bg-black bottom-0 w-100 pa3" role=contentinfo><div class="flex justify-between"><a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href=https://kekai.fun/>&copy; Ke Kai的原创博客 2023</a><div><div class=ananke-socials></div></div></div></footer></body></html>
