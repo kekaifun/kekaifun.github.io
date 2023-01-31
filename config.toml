@@ -1,0 +1,4 @@
+baseURL = 'https://kekai.fun/'
+languageCode = 'en-us'
+title = 'Ke Kai的原创博客'
+theme = 'ananke'
